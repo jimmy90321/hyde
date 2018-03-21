@@ -1,9 +1,9 @@
 # Dependencies
-markdown         : kramdown
-redcarpet        :
-extensions       : ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
-highlighter      : rouge
-plugins          : ["jekyll-paginate"]
+markdown            : kramdown
+redcarpet:
+  extensions        : ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
+highlighter         : rouge
+gems                : ["jekyll-paginate"]
 
 # Permalinks
 permalink        : pretty
@@ -23,4 +23,4 @@ paginate         : 5
 version          : 2.1.0
 
 github           :
-repo             : https://github.com/jimmy90321/jimmy90321.github.io
+
