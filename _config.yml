@@ -1,26 +1,26 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown         : kramdown
+redcarpet        :
+extensions       : ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
+highlighter      : rouge
+plugins          : ["jekyll-paginate"]
 
 # Permalinks
-permalink:        pretty
-relative_permalinks: true
+permalink        : pretty
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
+title            : Jimmy's blog
+description      : 'java/android junior developer'
+baseurl          : /
 
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+author           : Shih-Sian Liao
+name             : 'Shih-Sian Liao'
+url              : https://jimmy90321.github.io/
 
-paginate:         5
+paginate         : 5
 
 # Custom vars
-version:          2.1.0
+version          : 2.1.0
 
-github:
-  repo:           https://github.com/poole/hyde
+github           :
+repo             : https://github.com/jimmy90321/jimmy90321.github.io
