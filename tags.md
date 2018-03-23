@@ -8,6 +8,5 @@ title   : Tags
     <a href="/tags/{{ tag[0] }}">
       {{ tag | first }} ({{ tag | last | size }})
     </a>
-  </li>
 {% endfor %}
 </ul>
