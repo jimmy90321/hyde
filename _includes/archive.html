@@ -1,12 +1,5 @@
 <h2>Archive</h2>
-{% capture temptags %}
-  {% for tag in site.tags %}
-    {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
-  {% endfor %}
-{% endcapture %}
-{% assign sortedtemptags = temptags | split:' ' | sort | reverse %}
-{% for temptag in sortedtemptags %}
-  {% assign tagitems = temptag | split: '#' %}
-  {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
-  <a href="/tag/{{ tagname }}"><code class="highligher-rouge"><nobr>{{ tagname }}({{ tag | size }})</nobr></code></a>
+{% assign srted_tags = (site.tags | sort: 0) %}
+{% for tag in sorted_tags %}
+  <a href="/tag/{{ tag[0] }}"><code class="highligher-rouge"><nobr>{{ tag | first }}({{ tag | last | size }})</nobr></code></a>
 {% endfor %}
