@@ -1,5 +1,5 @@
 <h2>Archive</h2>
 {% assign srted_tags = (site.tags | sort: 0) %}
 {% for tag in sorted_tags %}
-  <a href="/tag/{{ tag[0] }}"><code class="highligher-rouge"><nobr>{{ tag | first }}({{ tag | last | size }})</nobr></code></a>
+  <a href="/tags/{{ tag[0] }}"><code class="highligher-rouge"><nobr>{{ tag | first }}({{ tag | last | size }})</nobr></code></a>
 {% endfor %}
