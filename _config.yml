@@ -20,6 +20,10 @@ url              : https://jimmy90321.github.io/
 paginate         : 5
 excerpt_separator: '<!-- more -->'
 
+# Disqus Setting
+disqus:
+  shortname: jimmy-developer
+
 # Custom vars
 version          : 2.1.0
 
