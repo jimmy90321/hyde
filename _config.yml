@@ -19,6 +19,7 @@ url              : https://jimmy90321.github.io/
 
 paginate         : 5
 excerpt_separator: '<!-- more -->'
+future           : true
 
 # Disqus Setting
 disqus:
