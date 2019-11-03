@@ -1,7 +1,7 @@
 ---
 layout     : post
 title      : "[LeetCode]Oct 2019, week 4 (Part 1)"
-date       : 2019-10-27 14:00:00
+date       : 2019-10-27 14:00:00+08:00
 author     : "Jimmy"
 tags       : leetcode kotlin
 comments   : true

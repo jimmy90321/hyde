@@ -1,7 +1,7 @@
 ---
 layout     : post
 title      : "[筆記]如何使Android APP能夠使用網路功能"
-date       : 2018-03-11 00:30:09
+date       : 2018-03-11 00:30:09+08:00
 author     : "Jimmy"
 tags       : android androidmanifest
 comments   : true
